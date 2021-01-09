@@ -1,0 +1,12 @@
+.container {
+    width: 100vw;
+    height: 100vh
+}
+
+.oscuro {
+background-color: #000
+}
+
+.oscuro h1 {
+color: #fff;
+}
