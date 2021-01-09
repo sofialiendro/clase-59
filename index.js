@@ -58,7 +58,7 @@ const hasProperty = (objeto, propiedad) => {
 
 
 
-//////
+////// MODO OSCURO CON NOMBRE GUARDADO
 
 const botonModo = document.querySelector('button');
 const mensajeModo = document.querySelector('#modo');
@@ -74,7 +74,7 @@ botonModo.onclick = () => {
   }
 };
 
-const usuarioGuardado = localStorage.getItem('usuario');
+const usuarioGuardado = localStorage.getItem('usuario'); // para ver si ya tengo un nombre guardado, si hay, ya no le pedimos el nombre con el prompt, solo 1 vez
 const user = JSON.parse(usuarioGuardado)
 if (user && user.nombre) {
   
